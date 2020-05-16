@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" time="0">
-<testcase classname="dummy" name="dummy">
-<skipped message="No features found"/>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.13332">
+<testcase classname="Free CRM Application" name="Login to CRM Application" time="0.132033">
+<system-out><![CDATA[Given user login to CRM application.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Application" name="user navigate to contacts" time="0.000485">
+<system-out><![CDATA[Given user navigate to contacts.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Application" name="user navigate to deals" time="0.000275">
+<system-out><![CDATA[Given user navigate to deals................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Application" name="user home page" time="0.000261">
+<system-out><![CDATA[Given user navigate to home page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Application" name="user navigate to companies" time="0.000266">
+<system-out><![CDATA[Given user navigate to companies............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

@@ -1,10 +1,280 @@
 [
   {
     "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 456555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 75110,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.beforefirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login to CRM Application",
+        "description": "",
+        "id": "free-crm-application;login-to-crm-application",
+        "after": [
+          {
+            "result": {
+              "duration": 100842,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 59163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.afterfirst()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131341684,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login to CRM application",
+            "match": {
+              "location": "hooksStepDefinition.user_login_to_CRM_application()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 138930,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "user navigate to contacts",
+        "description": "",
+        "id": "free-crm-application;user-navigate-to-contacts",
+        "after": [
+          {
+            "result": {
+              "duration": 282256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63380,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigate to contacts",
+            "match": {
+              "location": "hooksStepDefinition.user_navigate_to_contacts()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 137855,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "user navigate to deals",
+        "description": "",
+        "id": "free-crm-application;user-navigate-to-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 56497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81090,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user navigate to deals",
+            "match": {
+              "location": "hooksStepDefinition.user_navigate_to_deals()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Third"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 117089,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "user home page",
+        "description": "",
+        "id": "free-crm-application;user-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 77553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66462,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user navigate to home page",
+            "match": {
+              "location": "hooksStepDefinition.user_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Fourth"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 117001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "user navigate to companies",
+        "description": "",
+        "id": "free-crm-application;user-navigate-to-companies",
+        "after": [
+          {
+            "result": {
+              "duration": 92570,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 56392,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user navigate to companies",
+            "match": {
+              "location": "hooksStepDefinition.user_navigate_to_companies()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Fifth"
+          }
+        ]
+      }
+    ],
     "name": "Free CRM Application",
     "description": "",
     "id": "free-crm-application",
     "keyword": "Feature",
-    "uri": "/Users/sumitsharma/MyStuff/BDD/FreeCRMBDDFramework/src/main/java/Features/Tagging.feature"
+    "uri": "/Users/sumitsharma/MyStuff/BDD/FreeCRMBDDFramework/src/main/java/Features/hooks.feature"
   }
 ]
