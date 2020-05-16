@@ -8,12 +8,15 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features= "/Users/sumitsharma/MyStuff/BDD/FreeCRMBDDFramework/src/main/java/Features/DealsMap.feature",
+		features= "/Users/sumitsharma/MyStuff/BDD/FreeCRMBDDFramework/src/main/java/Features/Tagging.feature",
 		glue= {"StepDefinition"},
 		format= {"pretty", "html:test-output", "json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},//to generate different types of report.
 		dryRun=false,//it is defined to check mapping is proper between feature and step definition file.
 		monochrome=true,//to give output in proper format on console.
-		strict=true//it will check if any step is not defined in step definition file
+		strict=true,//it will check if any step is not defined in step definition file
+		tags= {"~@SmokeTest" , "~@RegressionTest" , "~@FunctionalTest"}//OR= {"@SmokeTest,@RegressionTest"}
+		//AND= {"@SmokeTest","@RegressionTest"}
+		//only Regression= {"~@SmokeTest","@RegressionTest"}
 		)	
 
 public class TestRunner {
