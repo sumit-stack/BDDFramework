@@ -13,5 +13,5 @@ Then Close the browser
 
 Examples:
 |username|password|firstname|lastname|position|
-|sumit.pb@gmail.com|Fake@73873|Sumit|Sharma|Test Analyst|
-|williekeith425@gmail.com|Fake@73873|Keith|Willie|Associate|
+|sumit.pb@gmail.com|abc123|Sumit|Sharma|Test Analyst|
+|williekeith425@gmail.com|abc123|Keith|Willie|Associate|

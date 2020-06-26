@@ -6,7 +6,7 @@ Given User is already on login page
 When Title of login page is Free CRM
 Then user enters username and password
 |username|password|
-|sumit.pb@gmail.com|Fake@73873|
+|sumit.pb@gmail.com|abc123|
 Then user clicks on login button
 Then user is on home page
 Then user navigate to deal page
