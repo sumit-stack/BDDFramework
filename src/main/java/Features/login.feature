@@ -20,5 +20,5 @@ And user is on home page
 
 #Examples:
  #|username|password|
- #|sumit.pb@gmail.com|Fake@73873|
- #|williekeith425@gmail.com|Fake@73873|
+ #|sumit.pb@gmail.com|abc1234|
+ #|williekeith425@gmail.com|abc1234|
